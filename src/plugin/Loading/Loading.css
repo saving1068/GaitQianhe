@@ -1,0 +1,57 @@
+.loading_box{
+		height: 100%;
+		width: 100%;
+		
+		position: fixed;
+		z-index: 99999;
+		top: 0;
+		left: 0;
+	}
+	.loading_box .midBox{
+		position: absolute;
+		z-index: 99999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 1.4rem;
+		height: 1.4rem;
+		border-radius:0.2rem;
+		background: rgba(0,0,0,0.9);
+	}
+	.loading_box .midBox p{
+		font-size: 0.24rem;
+		color: #FFFFFF;
+		text-align: center;
+	}
+	
+	.loading_box .midBox .topBox{
+		height: 0.9rem;
+		width: 100%;
+		position: relative;
+		
+	}
+	.loading_box .midBox .topBox i{
+		width: 0.47rem;
+		height: 0.5rem;
+		background: url(../../assets/common/icon_load@3x.png) no-repeat;
+		background-size:100% ;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		animation:mymove 5s infinite linear;
+        -webkit-animation:mymove 5s infinite linear; /* Safari 和 Chrome */
+		
+	}
+	@keyframes mymove{
+		0%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(1080deg);
+		}
+	}

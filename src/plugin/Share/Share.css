@@ -1,0 +1,70 @@
+.share_Box{
+  width: 100%;
+  height:100%;
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 90000
+
+}
+.share_Box .arrow{
+width: 1.28rem;
+height: 1.63rem;
+background: url('../../assets/common/common_img_share@3x.png') no-repeat;
+background-size: 100%;
+position: absolute;
+right: 0.35rem;
+top: 0;
+}
+.share_Box .box{
+     /*width: 5rem;*/
+     margin:1.6rem  auto;
+}
+.share_Box .box p{
+  text-align: center;
+  font-size: 0.46rem;
+  color: #ffffff;
+}
+
+.share_Box .box .second{
+
+-webkit-justify-content: center;
+-moz-justify-content: center;
+-ms-justify-content: center;
+-o-justify-content: center;
+justify-content: center;
+display: flex;
+display: -webkit-box;
+/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+display: -moz-box;
+/* 老版本语法: Firefox (buggy) */
+display: -ms-flexbox;
+/* 混合版本语法: IE 10 */
+display: -webkit-flex;
+/* 新版本语法: Chrome 21+ */
+
+}
+.share_Box .box .second i{
+width: 0.54rem;
+height: 0.12rem;
+background: url("../../assets/common/common_icon_spot@3x.png") no-repeat;
+background-size: 100%;
+position: relative;
+top: 0.3rem;
+margin-left: 0.1rem;
+margin-right: 0.1rem;
+}
+.share_Box  .closeBox{
+width: 0.95rem;
+height: 0.95rem;
+background: url("../../assets/common/common_btn_close@3x.png") no-repeat;
+background-size:100%;
+position: absolute;
+bottom: 0.65rem;
+margin: auto;
+left: 50%;
+margin-left: -0.475rem;
+
+
+}
